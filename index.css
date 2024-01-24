@@ -1,0 +1,62 @@
+body {
+    display: block;
+    background-image: url("reps2.png");
+    background-size: cover;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+#size{
+    height: 448px;
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #E6E6FA;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 1px black;
+    
+}
+
+h2 {
+    color: #E6E6FA;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 0 0 1px black;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #5C6B73;
+}
+
+#save-btn {
+    background: #6F1D1B;
+}
+
+p{
+    color: whitesmoke;
+    background-color: #000000;
+    text-shadow: 0 0 1px black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
